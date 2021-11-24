@@ -1,0 +1,126 @@
+header {
+    background-color: #2c3e50;
+}
+
+#banner {
+    background-color: #1abc9c;
+}
+
+#banner .row .at_img-box {
+    width: 250px;
+}
+
+#banner .row .at_img-box img{
+    width: 100%;
+} 
+
+ @media all and (min-width: 768px) {
+     html {
+         font-size: 20px;
+     }
+ }
+
+/* gestire con ::after e ::before una cosa del genere
+    {
+    content: "";
+    background-color: white;
+    border-radius: 4px;
+    min-width: 80px;
+    max-width: 10%;
+    height: 4px;
+    margin: 0 10px;
+   } */
+
+.at_line {
+    border: 2px solid white;
+    border-radius: 4px;
+    min-width: 80px;
+    max-width: 10%;
+    margin: 0 10px;
+}
+
+.at_star-icon {
+    width: max-content;
+    font-size: 2rem;
+}
+
+#portfolio .at_line,
+#contact .at_line {
+    border-color: #2c3e50;
+}
+
+#portfolio .at_star-icon,
+#contact .at_star-icon {
+    color: #2c3e50;
+}
+
+#portfolio .row .col-12 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#about {
+    background-color: #1abc9c;
+}
+
+#about .row button {
+    width: max-content;
+}
+
+#contact .row .col-8 form div textarea {
+    min-height: 200px;
+}
+
+#contact .row .col-8 form button {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+#contact .row .col-8 form button:hover {
+    background-color: #179c82;
+    border-color: #179c82;
+}
+
+footer {
+    background-color: #3a546d;
+}
+
+#info .row .col ul  {
+    
+}
+
+#info .row .col ul li {
+    display: inline-block;
+    margin:  0 5px;
+}
+
+#info .row .col ul li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+#info .row .col ul li a:hover {
+    transform: scale(1.2);
+}
+
+footer .at_link-1 {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+footer .at_link-1:hover {
+    text-decoration: underline;
+    text-decoration-color: #1abc9c;
+}
+
+#copyright {
+    background-color: #2c3e50;
+}
+
+#copyright p {
+    font-size: 0.8rem;
+}
